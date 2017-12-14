@@ -10,7 +10,8 @@ setup(
     description='Domain availability check',
     packages=['domaincheck'],
     install_requires=[
-        'dnspython'
+        'dnspython',
+        'enum'
     ],
     entry_points={
         'console_scripts': ['domaincheck=domaincheck.__main__:main']
