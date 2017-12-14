@@ -1,8 +1,8 @@
 
 default:
 
-wheel:
-	python setup.py bdist_wheel
+release:
+	python setup.py sdist bdist bdist_wheel
 
 test:
 	pytest
