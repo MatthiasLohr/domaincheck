@@ -1,9 +1,6 @@
 
-from enum import Enum
-
-
-class CheckResult(Enum):
-    INVALID = {'key': 1}
-    USED = {'key': 2}
-    FOR_SALE = {'key': 3}
-    AVAILABLE = {'key': 4}
+class CheckResult(object):
+    INVALID = 0
+    USED = 1
+    FOR_SALE = 2
+    AVAILABLE = 3
