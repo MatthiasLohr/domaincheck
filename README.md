@@ -9,9 +9,8 @@ or has already been assigned.
 ```bash
 $ domaincheck google.com
 INFO:root:google.com is used
-$ domaincheck example-random-number.com                                                                                                                                                   [15:16:00]
+$ domaincheck example-random-number.com
 INFO:root:example-random-number.com is available for registration
-
 ```
 
 You can also limit the output for showing only domains available for
