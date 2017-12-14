@@ -4,5 +4,5 @@ default:
 wheel:
 	python setup.py bdist_wheel
 
-tests:
+test:
 	pytest

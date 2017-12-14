@@ -3,5 +3,4 @@ import checks
 
 
 def check(domain):
-    return 'bla'
-
+    return checks.check_dns(domain)

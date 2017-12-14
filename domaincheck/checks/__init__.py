@@ -1,2 +1,2 @@
 
-from dns import check as check_dns
+from dns_check import check as check_dns
