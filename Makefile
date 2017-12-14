@@ -6,3 +6,6 @@ wheel:
 
 test:
 	pytest
+
+upload:
+	python setup.py sdist upload --sign
