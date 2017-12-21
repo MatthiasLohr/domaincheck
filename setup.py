@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='domaincheck',
-    version='1.0.1',
+    version='1.0.2',
     author='Matthias Lohr',
     author_email='matthias@lohr.me',
     description='Domain availability check',

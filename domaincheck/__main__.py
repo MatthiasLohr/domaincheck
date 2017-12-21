@@ -25,7 +25,8 @@ def main():
     if args.input_file:
         for filename in args.input_file:
             with open(filename) as stream:
-                for domain in stream.readlines():
+                for line in stream.readlines():
+                    domain = line.strip()
                     result = check(domain)
                     results.append((domain, result))
 
